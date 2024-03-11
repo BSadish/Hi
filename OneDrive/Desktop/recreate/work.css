@@ -115,6 +115,7 @@ header{
 
 
 
+
 /* first-container */
 
 .heading{
@@ -311,8 +312,194 @@ transform: scale(1.2);
     text-decoration: none;
     color: black;
     font-family: Roboto;
+    
+  
 }
 .sub-1 li a:hover{
     color: red;
     border-bottom: 2px solid black;
 }
+
+@media(width<=1350px)
+{
+.down-paragraph {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+   
+
+}
+}
+    
+
+@media (width<=1010px)
+{
+.first-nav{
+    display: flex;
+    gap: 20px;
+}
+
+
+.second-nav{
+    display: flex;
+    gap: 20px;
+}
+.down-paragraph{
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;
+
+
+
+
+}
+}
+
+@media (width<=1000px)
+{
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .first-nav{
+        display: flex;
+justify-content: center;
+    }
+    .second-nav{
+        display: flex;
+        justify-content: center;
+    }
+    .first-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .heading{
+        display: flex;
+        justify-content: center;
+    }
+    .image-container{
+       display: flex;
+       justify-content: center;
+       
+    }
+    .down-paragraph{
+        display: flex;
+        flex-direction: column;
+       margin-left: 200px;
+
+    }
+ 
+   .Second-container{
+   position: relative;
+    height: 60vh;
+    left: 100px;
+   }
+    
+    .boxes{
+        /* position: absolute; */
+        left: 10px;
+        width: 40%;
+        height: 200px;
+        
+    }
+    .box1{
+        height: 300px;
+        width: 300px;
+       
+        position: absolute;
+       top: 50px;
+    }
+    .box1 img{
+   
+        width: 100px;
+        height: 100px;
+       
+    }
+    .box2 img{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: 250px;
+        top: 100px;
+       
+    }
+    .third-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 70%;
+        margin-left: 100px;
+    }
+    .Fourth-container{
+        display: flex;
+        flex-direction: column;
+        width: 640px;
+
+       
+    }
+    .img-content{
+        text-align: center;
+    }
+   
+}
+
+@media (width<=435px)
+{
+    .first-nav{
+        gap: 10px;
+    }
+    .second-nav{
+        display: flex;
+        flex-direction: column;
+      gap: 10px;
+    }
+    .second-nav li:nth-child(3){
+        margin-top: 4px;
+    }
+    #try{
+        color: red;
+    }
+    .button{
+        padding: 4px;
+        margin-top: 5px;
+    }
+    .image-container img{
+        height: 300px;
+        width: 300px;
+    }
+    .down-paragraph{
+        width: 80%;
+        margin: 0;
+       
+    }
+    .Second-container{
+        position: relative;
+        left: 2px;
+    }
+    .box1 img{
+        position: absolute;
+        left: 40px;
+    }
+    .box1{
+        width: 230px;
+        
+    }
+    .box2 img{
+        position: absolute;
+        left: 150px;
+    }
+    .third-container{
+        width: 100%;
+        margin: 0;
+        height:50% ;
+    }
+}
+
+
+
+
+
